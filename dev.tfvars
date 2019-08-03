@@ -1,4 +1,4 @@
-      Name               ="Wordpress"
-      Env                ="Dev"
-      Created_by         ="Janna"
-      Dept               ="IT"
+      Name               = "Wordpress"
+      Env                = "Dev"
+      Created_by         = "Janna"
+      Dept               = "IT"
