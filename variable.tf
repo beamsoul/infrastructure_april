@@ -1,4 +1,4 @@
-Variable "Name" {}
-Variable "Env" {}
-Variable "Created_by" {}
-Variable "Dept" {}
+variable "Name" {}
+variable "Env" {}
+variable "Created_by" {}
+variable "Dept" {}
