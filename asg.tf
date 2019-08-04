@@ -1,4 +1,4 @@
-module "wordpress" {
+module "Wordpress" {
   source  = "terraform-aws-modules/autoscaling/aws"
   version = "3.0"
   
@@ -13,7 +13,7 @@ module "wordpress" {
 
   
   # Auto scaling group
-  asg_name                  = "wordpress-asg"
+  asg_name                  = "Wordpress-asg"
   vpc_zone_identifier       = ["${aws_subnet.public.id}"]
   health_check_type         = "EC2"
   min_size                  = 3
