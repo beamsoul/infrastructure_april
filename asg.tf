@@ -19,8 +19,8 @@ module "wordpress" {
   max_size                  = 128
   desired_capacity          = 4
   wait_for_capacity_timeout = 0
-  tags = {
-      Name = "${var.Name}"
+  tags_as_map = {
+      Name = "${var.Name}.privateDB"
       Env = "${var.Env}"
       Created_by = "${var.Created_by}"
       Dept = "${var.Dept}"
