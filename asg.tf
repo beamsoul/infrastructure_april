@@ -1,4 +1,4 @@
-module "wordpress]" {
+module "wordpress" {
   source  = "terraform-aws-modules/autoscaling/aws"
   version = "2.3"
   name = "wordpress"
