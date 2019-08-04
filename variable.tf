@@ -7,3 +7,8 @@ variable "instance_type" {}
 variable "key_name" {}
 variable "region" {}
 variable "appname" {}
+variable "min_size" {}
+variable "max_size" {}
+variable "desired_capacity" {}
+
+

@@ -7,3 +7,6 @@ instance_type      = "t2.micro"
 key_name           = "winkey-terraf"
 region             = "us-east-2"  
 appname            = "wordpress"
+min_size           = 6
+max_size           = 128
+desired_capacity   = 6
